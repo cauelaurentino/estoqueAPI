@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Record.java to edit this template
+ */
+package com.caue.EstoqueSAEP.dto;
+
+/**
+ *
+ * @author digma
+ */
+public record RelatorioPeriodoDTO(
+    String nomeProduto,
+    String unidadeMedida,
+    Long totalEntradas,
+    Long totalSaidas,
+    Long saldoPeriodo,
+    Double valorTotalEntradas,
+    Double valorTotalSaidas
+) {}
