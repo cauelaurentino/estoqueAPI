@@ -15,9 +15,17 @@
                 <exec.appArgs></exec.appArgs>
                 <exec.mainClass>com.caue.EstoqueSAEP.EstoqueSaepApplication</exec.mainClass>
                 <exec.executable>java</exec.executable>
-                <env.POSTGRES_URL>localhost</env.POSTGRES_URL>
-                <env.POSTGRES_USER>caue</env.POSTGRES_USER>
-                <env.POSTGRES_PASSWORD>1234</env.POSTGRES_PASSWORD>
+                <Env.APP_ENVIRONMENT>postgres</Env.APP_ENVIRONMENT>
+                <Env.POSTGRES_HOST>172.16.5.4</Env.POSTGRES_HOST>
+                <Env.POSTGRES_DB>estoqueDB</Env.POSTGRES_DB>
+                <Env.POSTGRES_USER>caue</Env.POSTGRES_USER>
+                <Env.POSTGRES_PASSWORD>caue1234</Env.POSTGRES_PASSWORD>
+                
+                
+                
+                
+                
+                
             </properties>
         </action>
         <action>
